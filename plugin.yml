@@ -1,0 +1,9 @@
+name: CommandManager
+main: net.yzimroni.commandmanager.CommandManagerPlugin
+version: 0.1
+description: CommandManager plugin.
+authors: [yzimroni]
+commands:
+  commandmanager:
+    description: command manager
+    aliases: [cm]
