@@ -5,6 +5,7 @@ import net.yzimroni.commandmanager.command.args.ArgumentValidCheck;
 
 import org.bukkit.command.CommandSender;
 
+@FunctionalInterface
 public interface CommandValidator {
 
 	/**

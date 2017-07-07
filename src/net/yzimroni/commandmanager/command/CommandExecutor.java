@@ -4,7 +4,8 @@ import net.yzimroni.commandmanager.command.args.ArgumentData;
 
 import org.bukkit.command.CommandSender;
 
-public abstract class CommandExecutor {
+@FunctionalInterface
+public interface CommandExecutor {
 
 	/**
 	 * Called to execute the command
@@ -12,6 +13,6 @@ public abstract class CommandExecutor {
 	 * @param command The command
 	 * @param args The arguments the sender typed
 	 */
-	public abstract void executeCommand(CommandSender sender, Command command, ArgumentData args);
+	public void executeCommand(CommandSender sender, Command command, ArgumentData args);
 	
 }

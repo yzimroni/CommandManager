@@ -9,7 +9,8 @@ import net.yzimroni.commandmanager.command.args.ArgumentData;
 
 import org.bukkit.command.CommandSender;
 
-public class MethodExecutor extends CommandExecutor {
+@Deprecated
+public class MethodExecutor implements CommandExecutor {
 	
 	private MethodExecutorClass object;
 	private Method method;
